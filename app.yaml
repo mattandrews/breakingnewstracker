@@ -1,0 +1,8 @@
+application: breaking-news-tracker
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /.*
+  script: breakingnewstracker.py
